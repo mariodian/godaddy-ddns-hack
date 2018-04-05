@@ -8,6 +8,6 @@ It's useful mostly if you run a service behind a dynamic IP address on your loca
 
 Create [new API key](https://developer.godaddy.com/keys).
 
-Edit the script according to your needs and add a crontab line:
+Edit the script according to your needs and add a crontab line via `crontab -e`:
 
 `*/1 * * * * sh /path/to/your/script/godaddy_ddns_hack.sh >/dev/null 2>&1`
